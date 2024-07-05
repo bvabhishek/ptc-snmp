@@ -97,13 +97,13 @@ try with set rport 161 and 1161 and look for the Access level permissions given
 
 # While we can see on port 1161 says read-write which is a huge misconfiguration 
 
-* whats the misconfiguration check /etc/snmp/snmpd.conf 
+# whats the misconfiguration check /etc/snmp/snmpd.conf 
 
-# Default Community String: Using the default community string public is a common misconfiguration. It is well-known and often exploited by attackers.
+* Default Community String: Using the default community string public is a common misconfiguration. It is well-known and often exploited by attackers.
 
-# Read-Write Access: The access level is read-write, which means that an attacker can not only read information from the device but also modify its configuration or settings, potentially leading to serious security issues.
+* Read-Write Access: The access level is read-write, which means that an attacker can not only read information from the device but also modify its configuration or settings, potentially leading to serious security issues.
 
-# Information Disclosure: The proof provided (sysDescr.0) shows that the device is a Linux machine with specific details about the kernel version and hostname, which can be valuable information for an attacker.
+* Information Disclosure: The proof provided (sysDescr.0) shows that the device is a Linux machine with specific details about the kernel version and hostname, which can be valuable information for an attacker.
 
 ### Lab2 Defense - Best Practice 
 
